@@ -1,0 +1,80 @@
+body {
+    margin: 115px auto 0 auto;
+    background: #1F2937;
+    color: white;
+    font-family: 'Inter';
+    width: 450px;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    margin: 10px 0 0 0;
+    color: #D5D4D8;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+button {
+    margin: 50px 0 0 0;
+    background: #10B981;
+    border-radius: 6px;
+    padding: 10px 15px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    color: #FFF;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+button:focus {
+    outline: none;
+}
+
+hr {
+    margin: 35px 0 0 0;
+    background-color: #2F3E53;
+    height: 1px;
+    border: none;
+}
+
+#box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.pass-box {
+    width: 210px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text {
+    margin: 0 auto;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: darkgreen;
+}
+
